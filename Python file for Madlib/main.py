@@ -14,4 +14,9 @@ def run_mad_lib():
     user_sex = raw_input("Are you a boy or a girl?  ")#str
     print user_name
 
+    user_ints = [int(user_age), int(user_fav_num), int(user_bike)]
+    user_strs = dict()
+    user_strs = {"name":user_name, "book":user_book, "sex":user_sex}
+    print user_strs
+    print user_ints
 run_mad_lib()
