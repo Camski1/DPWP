@@ -32,11 +32,26 @@ def run_mad_lib():
     while i<=user_ints[1]:
         kills = i + user_ints[1]
         i = i + 1
-    print "you have " + str(kills) + " kills"
 
-    if user_strs["sex"] == "girl":
-        print "girl"
-    else:
-        print "boy"
+    def story(name, year, kills, book, age):
+        if user_strs["sex"] == "girl":
+            if user_ints[0] > 60:
+                message = '''
+Our brave Hero {name} was thought at the age of {age} to be out of her prime but she is about to show everyone she still has it. Today is the {year} year anniversary of the end of the Ebola outbreak that killed {kills} million people. {name} is sitting in her study reading {book} not knowing that her retirement from the CIA was about to come to an end.
+For Full Ebook click link!
+'''
+                message = message.format(**locals())
+                print message
+            else:
+                a = "pass"
+                return a
+        else:
+            if user_ints[0] > 60:
+                a = "pass"
+                return a
+            else:
+                a = "pass"
+                return a
+    story(user_strs["name"], story_year, kills, user_strs["book"], user_ints[0])
 
 run_mad_lib()
