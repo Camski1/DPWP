@@ -28,3 +28,45 @@ characters.append("Ray")
 films = dict() #to create an "object"
 films = {"Midnight in Paris":"Dali", "Waking Ned Devine":"Ireland"}
 #print films["Midnight in Paris"]
+
+'''
+#while loop
+i = 0
+while i<=9:
+    #print "count is", i
+    #i = i + 1
+
+#for loop
+for i in range(0,10):
+    print "count is", i
+    i = i + 1
+'''
+#for each
+for c in characters:
+    #print c
+    pass
+
+#Function in py = def
+
+def calc_area(h, w):
+    area = h * w
+    return area
+
+a = calc_area(20, 40);
+print a
+
+weight = 200
+height = 63
+message = '''
+<!DOCTYPE HTML>
+    <head>
+    </head>
+    <body>
+    {height}
+    </body>
+</html>
+'''
+
+message = message.format(**locals())
+print message
+
