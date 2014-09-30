@@ -17,6 +17,15 @@ def run_mad_lib():
     user_ints = [int(user_age), int(user_fav_num), int(user_bike)]
     user_strs = dict()
     user_strs = {"name":user_name, "book":user_book, "sex":user_sex}
-    print user_strs
-    print user_ints
+
+    def year(num1, num2):
+        story_year = num1 * num2
+        return story_year
+    story_year = year(user_ints[0], user_ints[2])
+
+    if user_strs["sex"] == "girl":
+        print "girl"
+    else:
+        print "boy"
+
 run_mad_lib()
