@@ -58,8 +58,14 @@ For Full Ebook click link!
                 message = message.format(**locals())
                 print message
             else:
-                a = "pass"
-                return a
+                message = '''
+Our brave Hero {name} was thought at the age of {age} to be in his prime and he is about to prove them all right. Today is the {year} year anniversary of the end of the Ebola outbreak that killed {kills} million people. {name} is sitting in his barracks reading {book} not knowing that he is about to be called upon by the CIA.
+For Full Ebook click link!
+'''
+                message = message.format(**locals())
+                print message
+
+
     story(user_strs["name"], story_year, kills, user_strs["book"], user_ints[0])
 
 run_mad_lib()
