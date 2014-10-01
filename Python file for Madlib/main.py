@@ -51,8 +51,12 @@ For Full Ebook click link!
                 print message
         else:
             if user_ints[0] > 60:
-                a = "pass"
-                return a
+                message = '''
+Our brave Hero {name} was thought at the age of {age} to be out of his prime but he is about to show everyone he still has it. Today is the {year} year anniversary of the end of the Ebola outbreak that killed {kills} million people. {name} is sitting in his study reading {book} not knowing that his retirement from the CIA was about to come to an end.
+For Full Ebook click link!
+'''
+                message = message.format(**locals())
+                print message
             else:
                 a = "pass"
                 return a
