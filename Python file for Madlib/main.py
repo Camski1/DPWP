@@ -33,9 +33,13 @@ def run_mad_lib():
         kills = i + user_ints[1]
         i = i + 1
 
+    '''
+    This function will compile the information that will write the story.
+    '''
+
     def story(name, year, kills, book, age):
-        if user_strs["sex"] == "girl":
-            if user_ints[0] > 60:
+        if user_strs["sex"] == "girl": #if statement will find the sex of the user
+            if user_ints[0] > 60: #if statement will see if the user is older then 60
                 message = '''
 Our brave Hero {name} was thought at the age of {age} to be out of her prime but she is about to show everyone she still has it. Today is the {year} year anniversary of the end of the Ebola outbreak that killed {kills} million people. {name} is sitting in her study reading {book} not knowing that her retirement from the CIA was about to come to an end.
 For Full Ebook click link!
@@ -65,7 +69,7 @@ For Full Ebook click link!
                 message = message.format(**locals())
                 print message
 
-
+    #this is calling the story function and adding the needed info
     story(user_strs["name"], story_year, kills, user_strs["book"], user_ints[0])
-
+#calling the container function
 run_mad_lib()
