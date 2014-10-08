@@ -13,9 +13,12 @@ class MainHandler(webapp2.RequestHandler):
         if self.request.GET:
             user_name = self.request.GET['user_name']
             user_email = self.request.GET['user_email']
-            all = p.page_head + p.page_form + p.page_review + p.page_close
+            user_color = self.request.GET['user_color']
+            user_cont = self.request.GET['user_cont']
+            user_news = self.request.GET['user_news']
+            all = p.page_head + p.page_review + p.page_close
             all = all.format(**locals())
-            self.response.write(all) #print info to page
+            self.response.write(all)#print info to page
         else:
             self.response.write(p.page_head + p.page_form + p.page_close) #print info to page
 
