@@ -64,6 +64,7 @@ class Page(object):
                 <input class="sub_btn" type="submit" value="Submit" />
             </form>
         </div>'''
+        #the page_review var will display after the user has filled out the form, and display all of the imputed info to be checked by the user
         self.page_review = '''
         <div class="page_rev">
             <h3>Is the information correct?</h3>
@@ -75,6 +76,7 @@ class Page(object):
             <button id="btn1" type="button">Cancel</button>
 			<button id="btn2"type="button">Save</button>
         </div>'''
+        #page_close is holding closing tags and static information
         self.page_close = '''
         <div class="footer">
             <ul>
