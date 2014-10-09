@@ -9,8 +9,8 @@ from pages import Page#importing Page class from pages.py
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
-        p = Page()
-        if self.request.GET:
+        p = Page()#this var is simply holding the Page class from the pages file
+        if self.request.GET:#this is seeing if any information has been taken from the form
             user_name = self.request.GET['user_name']
             user_email = self.request.GET['user_email']
             user_color = self.request.GET['user_color']
