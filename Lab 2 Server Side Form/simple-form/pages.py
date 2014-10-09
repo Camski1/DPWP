@@ -1,4 +1,11 @@
 '''
+Cameron Kozinski
+oct 7th 2014
+Design Patterns for Web Programming
+simple form
+
+#########################
+
 This class is holding all of the information needed to write the html page
 '''
 class Page(object):
