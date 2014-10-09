@@ -1,5 +1,9 @@
+'''
+This class is holding all of the information needed to write the html page
+'''
 class Page(object):
     def __init__(self):
+        #The page_head var is holding only static information
         self.page_head = '''
 <!DOCTYPE HTML>
 <html>
@@ -24,6 +28,7 @@ class Page(object):
             <p>Become a member today!</p>
         </div>
         '''
+        #The page_form var is holding the form that will be displayed when the user first runs the page
         self.page_form = '''
         <div class="my_form">
             <h3>Please fill out form</h3>
