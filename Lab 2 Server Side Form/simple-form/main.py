@@ -11,13 +11,13 @@ class MainHandler(webapp2.RequestHandler):
     def get(self):
         p = Page()#this var is simply holding the Page class from the pages file
         if self.request.GET:#this is seeing if any information has been taken from the form
-            user_name = self.request.GET['user_name']
+            user_name = self.request.GET['user_name']#The five self.request.GETs are taking the information taken from the user and storing it in a var
             user_email = self.request.GET['user_email']
             user_color = self.request.GET['user_color']
             user_cont = self.request.GET['user_cont']
             user_news = self.request.GET['user_news']
-            all = p.page_head + p.page_review + p.page_close
-            all = all.format(**locals())
+            all = p.page_head + p.page_review + p.page_close#this var is holding the html sections
+            all = all.format(**locals())#this is making it so that I can have vars display as values in the html
             self.response.write(all)#print info to page
         else:
             self.response.write(p.page_head + p.page_form + p.page_close) #print info to page
