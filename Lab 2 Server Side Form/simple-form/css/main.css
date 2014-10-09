@@ -36,13 +36,16 @@ h2{
 	padding: 10px 0px;
 }
 
-.my_form{
+.my_form, .page_rev{
 	padding: 10px 20px 20px 20px;
 	position: absolute;
 	border: 2px solid #384AAB;
 	width: 30%;
 	background-color: #536EFF;
 	margin-left: 34%;
+}
+
+.my_form{
 	margin-top: -340px;
 }
 
@@ -55,25 +58,13 @@ h2{
 }
 
 .my_form .sub_btn{
-	border: 2px solid #678931;
 	background-color: #81FFD8;
-	font-size: 17px;
-	-webkit-border-radius: 30px;
-	-moz-border-radius: 30px;
-	border-radius: 30px;
-	padding: 10px;
 }
 .page_rev{
-	padding: 10px 20px 20px 20px;
-	position: absolute;
-	border: 2px solid #384AAB;
-	width: 30%;
-	background-color: #536EFF;
-	margin-left: 34%;
 	margin-top: -290px;
 }
 
-#btn1, #btn2{
+#btn1, #btn2, .my_form .sub_btn{
 	border: 2px solid #678931;
 	font-size: 17px;
 	-webkit-border-radius: 30px;
