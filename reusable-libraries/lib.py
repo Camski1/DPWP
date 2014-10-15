@@ -1,3 +1,26 @@
+
+class FavoriteMovies(object):
+    def __init__(self):
+        pass
+        self.__movie_list = []
+
+    def add_movie(self, m):
+        self.__movie_list.append(m)
+        print m.title
+
+    def compile_list(self):
+        output = ""
+        for movie in self.__movie_list:
+           output += "<p>" + "Title: " + movie.title + "</p>" + " (" + str(movie.year) + ") " + " Director: " + movie.director + "<br />"
+        return  output
+
+    def calc_time(self):
+        years = []
+        for movie in self.__movie_list:
+            years.append(movie.year)
+        print years
+
+
 class MovieData(object):
     def __init__(self):
         self.title = ""
@@ -6,7 +29,7 @@ class MovieData(object):
 
     @property
     def year(self):
-        pass
+        return  self.__year
 
     @year.setter
     def year(self, y):

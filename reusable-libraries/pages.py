@@ -11,7 +11,7 @@ class ResultsPage(object):
 </html>
     <body>
                 '''
-        self.__body = ""
+        self.body = ""
         self.__error = ""
         self.__close = '''
     </body>
@@ -19,5 +19,5 @@ class ResultsPage(object):
                 '''
 
     def print_out(self):
-        all = self.__title + self.__head + self.__body + self.__error + self.__close
+        all = self.__head + self.body + self.__error + self.__close
         return all
