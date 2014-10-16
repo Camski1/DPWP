@@ -1,4 +1,6 @@
+'''
 
+'''
 class ResultsPage(object):
     def __init__(self):
         self.page_head = '''

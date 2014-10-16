@@ -3,6 +3,7 @@ class UserInfoStr(object):
     def __init__(self):
         self.__user_arr = []
 
+
     def add_user(self, u):
         self.__user_arr.append(u)
         if u.sex == "female":
@@ -29,6 +30,7 @@ class UserInfoStr(object):
             else:
                 output = '''<div class='error'><h1>Your mother was a hamster and your father smelt of elderberries</h1></div>'''
                 return output
+
 
 
 class UserInfo(object):
