@@ -5,8 +5,18 @@ class UserInfoStr(object):
 
     def add_user(self, u):
         self.__user_arr.append(u)
+        if u.sex == "female":
+            u.user_name = "Sister " + u.user_name + " of " + u.user_location
+        else:
+            u.user_name = "Sir. " + u.user_name + " of " + u.user_location
 
+        print u.user_name
 
+    def user_output(self):
+        output = ""
+        for user in self.__user_arr:
+            output += "<div>" + "<h1>" + user.user_name + "</h1>"
+        return output
 
 
 class UserInfo(object):

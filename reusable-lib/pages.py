@@ -1,6 +1,6 @@
+
 class ResultsPage(object):
     def __init__(self):
-        #The page_head var is holding only static information
         self.page_head = '''
 <!DOCTYPE HTML>
 <html>

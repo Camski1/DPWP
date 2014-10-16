@@ -21,7 +21,9 @@ class MainHandler(webapp2.RequestHandler):
             ui.user_location = self.request.GET['user_location']
             ui.sex = self.request.GET['sex']
             ui.user_test = self.request.GET['user_test']
-            all = rp.page_head
+            uis.add_user(ui)
+            rp.body = uis.user_output()
+            all = rp.page_head + rp.body
             all = all.format(**locals())
             self.response.write(all)
         else:
