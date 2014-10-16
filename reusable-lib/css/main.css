@@ -3,11 +3,11 @@ body{
 	margin: 0px;
 	background-color: #FFF9E9;
 	font-family: Helvetica;
+	color: #1E044A
 }
 
 .nav{
 	background-color: #3ACFFF;
-	color: #1E044A;
 }
 
 .nav{
@@ -28,16 +28,46 @@ body{
 	color: white;
 	width: 230px;
 	background-color:#1E044A;
-	margin-left: 90px;
+	margin-left: 40px;
+	margin-top: 40px;
+}
+
+.left div{
+	float: left;
 }
 
 .friends h3, .find_friends h3{
-	padding: 15px 12px;
+	padding: 10px 12px;
 	margin-top: 20px;
 }
 
 
 .find_friends h3{
-	padding: 15px 59px;
+	padding: 10px 59px;
 	margin-top: 20px;
 }
+
+img{
+	height: 200px;
+	border-radius: 130px;
+	margin: 40px 20px 40px 50px;
+}
+
+.about{
+	float: right;
+	margin: 40px 220px 20px 0px;
+}
+
+.quest{
+	background-color: #E9EDD2;
+	width: 400px;
+}
+
+
+
+
+
+
+
+
+

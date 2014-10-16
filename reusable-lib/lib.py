@@ -21,7 +21,7 @@ class UserInfoStr(object):
             <h1>{user.user_name}</h1>
             <h2> My Favorite color is: {user.user_color} </h2>
             <div class='quest'>
-                <p> My Quest is:  {user.user_quest}</p>
+                <p> My Quest is:<br /> {user.user_quest}</p>
             </div>
         </div>
                 '''
