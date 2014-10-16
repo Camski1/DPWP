@@ -15,8 +15,12 @@ class UserInfoStr(object):
     def user_output(self):
         output = ""
         for user in self.__user_arr:
-            output += "<div>" + "<h1>" + user.user_name + "</h1>"
-        return output
+            if user.user_test == str(5 + 4):
+                output += "<div>" + "<h1>" + user.user_name + "</h1>"
+                return output
+            else:
+                output = "<div class='error'><h1>Your mother was a hamster and your father smelt of elderberries</h1></div>"
+                return output
 
 
 class UserInfo(object):
