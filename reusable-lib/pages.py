@@ -9,9 +9,28 @@ class ResultsPage(object):
         <link href="css/main.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
+        <div class="nav">
+            <ul>
+                <li>Coconuts Beta</li>
+                <li>About</li>
+                <li>Feature List</li>
+            </ul>
+        </div>
+        <div class="left">
+            <div class="friends">
+                <h3>Quest Companions</h3>
+                <p>1</p>
+            </div>
+
+            <div class="find_friends">
+                <h3>Find Britons</h3>
+            </div>
+        </div>
+        <img src="img/coconuts.jpg" alt="coconuts">
         '''
         self.body = '''
-
+        '''
+        self.close = '''
     </body>
 </html>
         '''

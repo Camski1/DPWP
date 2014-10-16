@@ -16,10 +16,18 @@ class UserInfoStr(object):
         output = ""
         for user in self.__user_arr:
             if user.user_test == str(5 + 4):
-                output += "<div>" + "<h1>" + user.user_name + "</h1>"
-                return output
+                output += '''
+        <div class='about'>
+            <h1>{user.user_name}</h1>
+            <h2> My Favorite color is: {user.user_color} </h2>
+            <div class='quest'>
+                <p> My Quest is:  {user.user_quest}</p>
+            </div>
+        </div>
+                '''
+                return output.format(**locals())
             else:
-                output = "<div class='error'><h1>Your mother was a hamster and your father smelt of elderberries</h1></div>"
+                output = '''<div class='error'><h1>Your mother was a hamster and your father smelt of elderberries</h1></div>'''
                 return output
 
 

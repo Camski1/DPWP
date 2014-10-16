@@ -23,7 +23,7 @@ class MainHandler(webapp2.RequestHandler):
             ui.user_test = self.request.GET['user_test']
             uis.add_user(ui)
             rp.body = uis.user_output()
-            all = rp.page_head + rp.body
+            all = rp.page_head + rp.body + rp.close
             all = all.format(**locals())
             self.response.write(all)
         else:
