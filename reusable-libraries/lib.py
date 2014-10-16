@@ -18,7 +18,15 @@ class FavoriteMovies(object):
         years = []
         for movie in self.__movie_list:
             years.append(movie.year)
-        print years
+
+        years.sort()
+
+        num = len(years) - 1
+        span = years[num] - years[0]
+        return span
+
+
+
 
 
 class MovieData(object):
