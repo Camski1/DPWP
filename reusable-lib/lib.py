@@ -1,4 +1,14 @@
 
+class UserInfoStr(object):
+    def __init__(self):
+        self.__user_arr = []
+
+    def add_user(self, u):
+        self.__user_arr.append(u)
+
+
+
+
 class UserInfo(object):
     def __init__(self):
         self.__user_name = ""

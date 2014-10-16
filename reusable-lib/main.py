@@ -6,10 +6,11 @@ Reusable Library
 '''
 import webapp2
 from pages import ResultsPage, FormPage
-from lib import UserInfo
+from lib import UserInfo, UserInfoStr
 
 class MainHandler(webapp2.RequestHandler):
     def get(self):
+        uis = UserInfoStr()
         rp = ResultsPage()
         fp = FormPage()
         ui = UserInfo()
