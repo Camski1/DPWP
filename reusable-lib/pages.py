@@ -24,12 +24,23 @@ class ResultsPage(object):
             <div class="find_friends">
                 <h3>Find Britons</h3>
             </div>
+            <img src="img/god.jpg" alt="god">
         </div>
-        <img src="img/coconuts.jpg" alt="coconuts">
+        <div class="profile">
+            <img src="img/coconuts.jpg" alt="coconuts">
+        </div>
         '''
         self.body = '''
         '''
         self.close = '''
+        <div class="comment">
+            <img src="img/coconuts.jpg" alt="coconuts">
+            <form method="GET">
+                <label for="comment">Whats on your mind??</label><br>
+                <textarea id="comment" name="user_comment" rows="7" cols="60"></textarea><br>
+                <input class="sub_btn" type="button" value="Post" />
+            </form>
+        </div>
     </body>
 </html>
         '''

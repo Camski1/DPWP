@@ -32,6 +32,10 @@ body{
 	margin-top: 40px;
 }
 
+.friends{
+	background-color: #6798CF;
+}
+
 .left div{
 	float: left;
 }
@@ -47,7 +51,15 @@ body{
 	margin-top: 20px;
 }
 
-img{
+.left img{
+	float: left;
+	margin-top: 200px;
+	margin-left: -500px;
+	height: 130px;
+	border-radius: 90px;
+}
+
+.profile img{
 	height: 200px;
 	border-radius: 130px;
 	margin: 40px 20px 40px 50px;
@@ -55,15 +67,48 @@ img{
 
 .about{
 	float: right;
-	margin: 40px 220px 20px 0px;
+	margin: -230px 220px 20px 0px;
 }
 
 .quest{
+	float: right;
 	background-color: #E9EDD2;
 	width: 400px;
 }
 
+.about h1{
+	line-height: 19px;
+	width: 406px;
+}
 
+.comment{
+	float: right;
+	margin-right: 220px;
+}
+
+.comment img{
+	float: left;
+	height: 110px;
+	border-radius: 90px;
+	margin-right: 20px;
+}
+
+.comment form{
+	float: left;
+}
+
+.comment textarea{
+	border: 0px;
+	background-color: #E9EDD2;
+}
+
+.comment input{
+	color: white;
+	background-color: #1E044A;
+	border: 0px;
+	height: 40px;
+	width: 90px;
+}
 
 
 
