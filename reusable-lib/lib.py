@@ -15,8 +15,9 @@ class UserInfoStr(object):
 
     def user_output(self,check):
         output = ""
+        #this is looping threw all of the info in __user_arr
         for user in self.__user_arr:
-            if user.user_test == str(check):
+            if user.user_test == str(check):#the test is then check against the results of human_check
                 output += '''
         <div class='about'>
             <h1>{user.user_name}</h1>
@@ -27,16 +28,16 @@ class UserInfoStr(object):
         </div>
                 '''
                 return output.format(**locals())
-            else:
+            else:#this is the error page
                 output = '''<div class='error'><h1>Your mother was a hamster and your father smelt of elderberries</h1></div>'''
                 return output
 
-    def human_check(self):
+    def human_check(self):#this is adding the numbers from the human check form section
         check = 5 + 4
         return check
 
 '''
-
+This Data obj is holding all of the user info
 '''
 class UserInfo(object):
     def __init__(self):
@@ -47,6 +48,10 @@ class UserInfo(object):
         self.__sex = ""
         self.user_test = ""
 
+    '''
+    Everything below is converting the private information so that it can be used and changed
+    in the app
+    '''
 
     @property
     def user_name(self):
