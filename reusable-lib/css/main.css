@@ -110,6 +110,46 @@ body{
 	width: 90px;
 }
 
+.my_form{
+	float: left;
+}
+
+.form_head{
+	width: 500px;
+	margin-left: 40px;
+}
+
+.my_form form{
+	margin-left: 40px;
+}
+
+.my_form .imps{
+	width: 430px;
+}
+
+.my_form input{
+	margin-bottom: 20px;
+	padding: 5px 0px;
+}
+
+.info{
+	margin-left: 620px;
+	margin-top: -85px;
+}
+
+.info img{
+	height: 200px;
+	border-radius: 130px;
+}
+
+.info p{
+	width: 600px;
+}
+
+
+
+
+
 
 
 

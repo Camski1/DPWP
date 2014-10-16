@@ -57,26 +57,35 @@ class FormPage(object):
         <link href="css/main.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        <h1>Ask me the questions, bridgekeeper. I am not afraid</h1>
+    <div class="nav">
+            <ul>
+                <li>Coconuts Beta</li>
+                <li>About</li>
+                <li>Feature List</li>
+            </ul>
+        </div>
+        <div class="form_head">
+            <h1>Ask me the questions, bridgekeeper. I am not afraid</h1>
+        </div>
         '''
         self.page_form = '''
         <div class="my_form">
             <form method="GET">
                 <label for="name">What... is your name?</label><br>
-                <input class="inp_name" type="text" name="user_name" id="name"/><br>
+                <input class="imps" type="text" name="user_name" id="name"/><br>
 
                 <label for="quest">What... is your quest?</label><br>
-                <textarea id="quest" name="user_quest" rows="7" cols="30"></textarea><br>
+                <textarea id="quest" name="user_quest" rows="7" cols="59"></textarea><br>
 
                 <label for="color">What... is your favorite color?</label><br>
-                <input id="color" class="inp_color" type="text" name="user_color" /><br>
+                <input id="color" class="imps" type="text" name="user_color" /><br>
 
                 <label for="location">Where are you from?</label><br>
-                <input id="location" type="text" name="user_location" /><br>
+                <input class="imps" id="location" type="text" name="user_location" /><br>
 
-                <input id="ma-sex" type="radio" name="sex" value="male" checked>
+                <input class="gen" id="ma-sex" type="radio" name="sex" value="male" checked>
 				<label for="ma-sex">Male</label>
-				<input id="fe-sex" type="radio" name="sex" value="female">
+				<input class="gen" id="fe-sex" type="radio" name="sex" value="female">
 				<label for="fe-sex">Female</label><br>
 
 				<label for="test">What... is F!VE plus F@UR? (just want to see if you are human)</label><br>
@@ -85,7 +94,12 @@ class FormPage(object):
                 <input class="sub_btn" type="submit" value="Submit" />
             </form>
         </div>
-
+        <div class="info">
+            <img src="img/god.jpg" alt="god">
+            <h2>A little about Coconuts</h2>
+            <p>Bloody Peasant! Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods. Knights of Ni, we are but simple travelers who seek the enchanter who lives beyond these woods.</p>
+            <p>We found them. She looks like one. I have to push the pram a lot. Oh! Come and see the violence inherent in the system! Help, help, I'm being repressed! Did you dress her up like this? I dunno. Must be a king.</p>
+        </div>
     </body>
 </html>
         '''

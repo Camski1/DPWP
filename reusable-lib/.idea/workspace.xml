@@ -46,8 +46,8 @@
       <file leaf-file-name="pages.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.26232114" vertical-offset="435" max-vertical-offset="1455">
-              <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+            <state vertical-scroll-proportion="0.83956385" vertical-offset="1021" max-vertical-offset="1725">
+              <caret line="100" column="224" selection-start-line="100" selection-start-column="224" selection-end-line="100" selection-end-column="224" />
               <folding />
             </state>
           </provider>
@@ -367,8 +367,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pages.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26232114" vertical-offset="435" max-vertical-offset="1455">
-          <caret line="40" column="66" selection-start-line="40" selection-start-column="66" selection-end-line="40" selection-end-column="66" />
+        <state vertical-scroll-proportion="0.83956385" vertical-offset="1021" max-vertical-offset="1725">
+          <caret line="100" column="224" selection-start-line="100" selection-start-column="224" selection-end-line="100" selection-end-column="224" />
           <folding />
         </state>
       </provider>
