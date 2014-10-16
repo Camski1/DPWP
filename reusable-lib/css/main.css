@@ -1,4 +1,43 @@
 body{
+	padding: 0px;
+	margin: 0px;
 	background-color: #FFF9E9;
+	font-family: Helvetica;
 }
 
+.nav{
+	background-color: #3ACFFF;
+	color: #1E044A;
+}
+
+.nav{
+	background-color: #3ACFFF;
+	padding: 1px 0px;
+}
+
+.nav ul{
+	list-style-type: none;
+}
+
+.nav li{
+	display: inline-block;
+	padding-right: 20px;
+}
+
+.friends, .find_friends{
+	color: white;
+	width: 230px;
+	background-color:#1E044A;
+	margin-left: 90px;
+}
+
+.friends h3, .find_friends h3{
+	padding: 15px 12px;
+	margin-top: 20px;
+}
+
+
+.find_friends h3{
+	padding: 15px 59px;
+	margin-top: 20px;
+}

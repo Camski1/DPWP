@@ -18,8 +18,7 @@ class ResultsPage(object):
         </div>
         <div class="left">
             <div class="friends">
-                <h3>Quest Companions</h3>
-                <p>1</p>
+                <h3>Quest Companions... 1</h3>
             </div>
 
             <div class="find_friends">
