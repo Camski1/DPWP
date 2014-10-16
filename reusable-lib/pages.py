@@ -9,7 +9,9 @@ class ResultsPage(object):
         <link href="css/main.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-        hello
+        '''
+        self.body = '''
+
     </body>
 </html>
         '''
