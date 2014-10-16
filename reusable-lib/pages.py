@@ -1,8 +1,9 @@
 '''
-
+This class is holding all of the info for the results page
 '''
 class ResultsPage(object):
     def __init__(self):
+        #tpage_head is holding all static information
         self.page_head = '''
 <!DOCTYPE HTML>
 <html>
@@ -32,8 +33,10 @@ class ResultsPage(object):
             <img src="img/coconuts.jpg" alt="coconuts">
         </div>
         '''
+        #body is an empty string for all user input data
         self.body = '''
         '''
+        #close is holding all static information
         self.close = '''
         <div class="comment">
             <img src="img/coconuts.jpg" alt="coconuts">
@@ -47,10 +50,13 @@ class ResultsPage(object):
 </html>
         '''
 
-
+'''
+This class is holding all of the info for the form page. The form is taking six kinds
+of info from the user.
+'''
 class FormPage(object):
     def __init__(self):
-        #The page_head var is holding only static information
+        #The page_head var is holding only static information.
         self.form_page_head = '''
 <!DOCTYPE HTML>
 <html>
