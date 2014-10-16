@@ -13,10 +13,10 @@ class UserInfoStr(object):
 
         print u.user_name
 
-    def user_output(self):
+    def user_output(self,check):
         output = ""
         for user in self.__user_arr:
-            if user.user_test == str(5 + 4):
+            if user.user_test == str(check):
                 output += '''
         <div class='about'>
             <h1>{user.user_name}</h1>
@@ -31,8 +31,13 @@ class UserInfoStr(object):
                 output = '''<div class='error'><h1>Your mother was a hamster and your father smelt of elderberries</h1></div>'''
                 return output
 
+    def human_check(self):
+        check = 5 + 4
+        return check
 
+'''
 
+'''
 class UserInfo(object):
     def __init__(self):
         self.__user_name = ""

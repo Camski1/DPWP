@@ -26,7 +26,7 @@ class MainHandler(webapp2.RequestHandler):
             ui.sex = self.request.GET['sex']
             ui.user_test = self.request.GET['user_test']
             uis.add_user(ui)#this is taking the information from the UserInfo and sending it to the UserInfoStr
-            rp.body = uis.user_output()#this is taking the info from UserInfoStr and sending it to the results page
+            rp.body = uis.user_output(uis.human_check())#this is taking the info from UserInfoStr and sending it to the results page
             all = rp.page_head + rp.body + rp.close
             all = all.format(**locals())
             self.response.write(all)#this is posting the info to the screen

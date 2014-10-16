@@ -111,3 +111,7 @@ class FormPage(object):
     </body>
 </html>
         '''
+
+'''
+This class is holding all of the info for the error page
+'''
