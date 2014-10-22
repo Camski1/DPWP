@@ -14,5 +14,5 @@ class RecList(object):
 
     def print_rec_list(self):
         for item in self._rec_names:
-            self._rec_names = item[0]
-            print self._rec_names
+            self._rec_names = [[item[0]], [item[1]]]
+            print self._rec_names[0]
