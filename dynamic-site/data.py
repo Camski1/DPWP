@@ -10,7 +10,7 @@ class Bigos(object):
         self.directions = ["Preheat the oven to 350 degrees F (175 degrees C).", "Coat the cubes of pork lightly with flour and fry them in the bacon drippings over medium-high heat until golden brown. Use a slotted spoon to transfer the pork to the casserole. Add the garlic, onion, carrots, fresh mushrooms, cabbage and sauerkraut. Reduce heat to medium; cook and stir until the carrots are soft, about 10 minutes. Do not let the vegetables brown.", "Deglaze the pan by pouring in the red wine and stirring to loosen all of the bits of food and flour that are stuck to the bottom. Season with the bay leaf, basil, marjoram, paprika, salt, pepper, caraway seeds and cayenne pepper; cook for 1 minute.", "Mix in the dried mushrooms, hot pepper sauce, Worcestershire sauce, beef stock, tomato paste and tomatoes. Heat through just until boiling. Pour the vegetables and all of the liquid into the casserole dish with the meat. Cover with a lid.", "Bake in the preheated oven for 2 1/2 to 3 hours, until meat is very tender."]
         self.prep = 30
         self.cook = 90
-
+        self.img = 'img/bigos.jpg'
         self.rec_array = [self.rec_name, self.rec_desc, self.rec_ingr, self.directions, self.prep, self.cook]
 
 class PotatoCakes(object):
@@ -21,7 +21,7 @@ class PotatoCakes(object):
         self.directions = ["Using a food processor or hand shredder, grate potatoes and onion using the finest grader.  The finer the potatoes are grated, the better because it is easier to cook.  If you grate the potatoes in larger chunks, you will just have to cook longer and use a little bit more oil for taste.", "Squeeze potatoes and onions with hands to remove excess liquid", "Put grated potatoes and onion in a large bowl and mix with eggs, garlic, flour, marjoram, salt, and pepper.", "Heat oil in large frying pan until almost smoking.  Carefully put a large spoonful of the potato mixture into the pan and flatten with a fork.  Repeat until you have 3-4 pancakes in the pan. Fry each pancake until it is golden brown on both sides.  Remove with spatula and drain on a paper towel.", "Serve potato pancakes warm with topping of choice."]
         self.prep = 30
         self.cook = 90
-
+        self.img = 'img/pancakes.jpg'
         self.rec_array = [self.rec_name, self.rec_desc, self.rec_ingr, self.directions, self.prep, self.cook]
 
 
@@ -33,7 +33,7 @@ class Zrazy(object):
         self.directions = ["Cut the beef into 4 to 6 pieces and pound until thin. Spread each slice of beef with the mustard. On each slice, place a piece of bacon, gherkin and some onion. Roll up the beef slices and secure with toothpicks.","Heat oil in a deep frying pan and fry the beef roulades until brown on each side. Add 1/2 cup of beef stock. Simmer for 1 hour or until cooked, adding more stock when necessary. Season to taste.", "Serve with mashed beetroot."]
         self.prep = 30
         self.cook = 90
-
+        self.img = 'img/Zrazy.jpg'
         self.rec_array = [self.rec_name, self.rec_desc, self.rec_ingr, self.directions, self.prep, self.cook]
 
 
@@ -45,7 +45,7 @@ class Nalesniki(object):
         self.directions = ["In a blender or food processor, combine all ingredients until smooth. Transfer to a pitcher, cover with plastic wrap and let rest for 30 minutes so the liquid can be absorbed by the flour.","Using a 2-ounce ladle, portion out batter into a nonstick crepe pan or small skillet that has been lightly coated with butter. Rotate pan and swirl batter until it covers the entire bottom of pan. Cook until lightly brown or spotted brown on the underside. Turn and cook second side until light brown.", "Remove to waxed paper or parchment paper and repeat with remaining batter and butter. Serve immediately or wrap and freeze up to 1 month."]
         self.prep = 30
         self.cook = 90
-
+        self.img = 'img/Nalesniki.jpg'
         self.rec_array = [self.rec_name, self.rec_desc, self.rec_ingr, self.directions, self.prep, self.cook]
 
 
@@ -57,5 +57,5 @@ class Golumpki(object):
         self.directions = ["Mix together the rice, salt/pepper, and raw ground beef. Boil the head of cabbage after coring it, just to loosen the leaves for about 3 to 5 minutes. Take 1 leaf out at a time and fill it with approximately 2 tablespoonfuls of rice-meat mixture. Fold it over horizontally and then bring in the sides of leaf to make a pocket. Arrange in a covered casserole dish or roasting pan and bake at 350 degrees for 1 hour."]
         self.prep = 30
         self.cook = 90
-
+        self.img = 'img/Golumpki.jpg'
         self.rec_array = [self.rec_name, self.rec_desc, self.rec_ingr, self.directions, self.prep, self.cook]

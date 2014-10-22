@@ -44,5 +44,18 @@ body{
 }
 
 .right{
-	width: 900px;
+	background-color: red;
+	width: 55%;
+	margin-left: 500px;
 }
+
+.right img{
+	width: 50%;
+}
+
+
+
+
+
+
+

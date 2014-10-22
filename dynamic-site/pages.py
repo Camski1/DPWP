@@ -48,8 +48,24 @@ class RecDisp(Page):
     def __init__(self):
         Page.__init__(self)
 
+
     def page_items(self,resp):
-        self.stuff = '<div class="right"><p>' + resp.rec_name + resp.rec_name + resp.rec_name +'</p></div>'
+
+        self.stuff = '''
+        <div class="right">
+            <h1>''' + resp.rec_name + '''</h1>
+            <p>''' + resp.rec_desc + '''</p>
+            <img src="''' + resp.img + '''" alt="Small Town in Poland">
+            <h2>Ingredients</h2>
+            <ul>'''
+        self.stuff_ingr = '''
+        '''
+        self.stuff_close = '''
+            <ul>
+        </div>
+        '''
+
+
 
     def page_links(self,li):
         update = li
