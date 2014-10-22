@@ -2,6 +2,7 @@ class RecData(object):
     def __init__(self):
         self.rec_arr = [[],[],[],[],[]]
 
+
 class Bigos(RecData):
     def __init__(self):
         RecData.__init__(self)
@@ -13,9 +14,6 @@ class Bigos(RecData):
         self.cook = 90
 
         self.rec_array = [self.rec_name, self.rec_desc, self.rec_ingr, self.directions, self.prep, self.cook]
-
-
-
 
 
 class PotatoCakes(RecData):

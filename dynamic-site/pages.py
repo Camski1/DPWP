@@ -10,10 +10,19 @@ class Page(object):
     <body>
         '''
         self.body = '''
+
         '''
         self.close = '''
     </body>
 </html>
         '''
     def print_page(self):
-        return self.page_head + self.body + self.close
+        all = self.page_head + self.body + self.close
+        all = all.format(**locals())
+        return all
+
+    def page_links(self,li):
+        update = li
+        for item in update:
+            self.body += '<a method="GET" href="#' + item[0] + '"><div><h3>' + item[0] + "</h3><p>" + item[1] + "</p></div></a>"
+            #cont">Home</a>"
