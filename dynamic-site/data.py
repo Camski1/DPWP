@@ -2,10 +2,8 @@ class RecData(object):
     def __init__(self):
         self.rec_arr = [[],[],[],[],[]]
 
-
-class Bigos(RecData):
+class Bigos(object):
     def __init__(self):
-        RecData.__init__(self)
         self.rec_name = "Bigos"
         self.rec_desc = "Bigos is a stewed dish made from cabbage as a main ingredient. Fresh cabbage can be used as well as the soured one, called sauerkraut. Hence, more than one kind of bigos exists in the Polish cuisine."
         self.rec_ingr = ["2 thick slices hickory-smoked bacon", "1 pound kielbasa sausage sliced into 1/2 inch pieces", "1 pound cubed pork stew meat", "1/4 cup all-purpose flour", "3 cloves garlic, chopped", "1 onion, diced", "2 carrots, diced", "1 1/2 cups sliced fresh mushrooms", "4 cups shredded green cabbage", "1 (16 ounce) jar sauerkraut, rinsed and well drained", "1/4 cup dry red wine", "1 bay leaf", "1 teaspoon dried basil", "1 teaspoon dried marjoram", "1 tablespoon sweet paprika", "1/4 teaspoon salt", "1/8 teaspoon ground black pepper", "1/8 teaspoon caraway seed, crushed", "1 pinch cayenne pepper", "1/2 ounce dried mushrooms", "1 dash bottled hot pepper sauce", "1 dash Worcestershire sauce", "5 cups beef stock", "2 tablespoons canned tomato paste", "1 cup canned diced tomatoes"]
@@ -15,10 +13,8 @@ class Bigos(RecData):
 
         self.rec_array = [self.rec_name, self.rec_desc, self.rec_ingr, self.directions, self.prep, self.cook]
 
-
-class PotatoCakes(RecData):
+class PotatoCakes(object):
     def __init__(self):
-        RecData.__init__(self)
         self.rec_name = "Placki Ziemniaczane"
         self.rec_desc = "Placki ziemniaczane is a Polish name for a quite well-known, simple and good food made from grated potatoes fried in a fat."
         self.rec_ingr = ["4-5 large potatoes, peeled and grated", "1 large onion", "3-4 minced garlic cloves", "2 eggs", "4 tbsp flour ", "1/2 teaspoon marjoram", "1/2 teaspoon salt (minimum)", "Freshly ground black pepper"]
@@ -29,9 +25,8 @@ class PotatoCakes(RecData):
         self.rec_array = [self.rec_name, self.rec_desc, self.rec_ingr, self.directions, self.prep, self.cook]
 
 
-class Zrazy(RecData):
+class Zrazy(object):
     def __init__(self):
-        RecData.__init__(self)
         self.rec_name = "Zrazy"
         self.rec_desc = "Zrazy is an traditional Old Polish food coming from the Polish Gentry and the cuisine of hunters. Zrazy is made from slices of beef, veal or game, stir-fried and stewed with an addition of vegetables and spices."
         self.rec_ingr = ["700 g beef", "2 tbsp grainy mustard", "200 g smoked bacon, cut into strips", "200 g gherkin, cut into thin strips", "200 g brown onion, cut into strips", "500 ml beef stock"]
@@ -42,9 +37,8 @@ class Zrazy(RecData):
         self.rec_array = [self.rec_name, self.rec_desc, self.rec_ingr, self.directions, self.prep, self.cook]
 
 
-class Nalesniki(RecData):
+class Nalesniki(object):
     def __init__(self):
-        RecData.__init__(self)
         self.rec_name = "Nalesniki"
         self.rec_desc = "Typical of many cuisines, Polish nalesniki are just pancakes with various fillings (from sweet to spicy). Nalesniki evolved from Old Polish pies and pancakes under the influence of French cuisine, and have been very popular in Poland for decades."
         self.rec_ingr = ["1/2 cup all-purpose flour", "1/2 cup milk", "1/4 cup lukewarm water", "2 large eggs", "2 tablespoons butter, melted", "1/2 teaspoon salt"]
@@ -55,9 +49,8 @@ class Nalesniki(RecData):
         self.rec_array = [self.rec_name, self.rec_desc, self.rec_ingr, self.directions, self.prep, self.cook]
 
 
-class Golumpki(RecData):
+class Golumpki(object):
     def __init__(self):
-        RecData.__init__(self)
         self.rec_name = "Golumpki"
         self.rec_desc = "Golabki or stuffed cabbage is one of a traditional food of Central and Eastern Europe. Polish golabki is a cooked knob of forcemeat wrapped up in a leaf of a white cabbage."
         self.rec_ingr = ["2 c. cooked rice", "1 to 1 1/2 lbs. raw ground beef", "1/4 tsp. salt & pepper", "1 med. green head of cabbage"]
