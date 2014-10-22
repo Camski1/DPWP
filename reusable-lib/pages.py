@@ -65,7 +65,7 @@ class FormPage(object):
         <link href="css/main.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
-    <div class="nav">
+        <div class="nav">
             <ul>
                 <li>Coconuts Beta</li>
                 <li>About</li>
