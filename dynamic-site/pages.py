@@ -64,9 +64,9 @@ class RecDisp(Page):
             <p>''' + resp.rec_desc + '''</p>
             <img src="''' + resp.img + '''" alt="Small Town in Poland">
             <ul class="times">
-                <li>Prep Time: ''' + str(resp.prep) + '''</li>
-                <li>Cook Time: ''' + str(resp.cook) + '''</li>
-                <li>Total Time: ''' + str(resp.prep + resp.cook) + '''</li>
+                <li>Prep Time: ''' + str(resp.prep) + ''' min</li>
+                <li>Cook Time: ''' + str(resp.cook) + ''' min</li>
+                <li>Total Time: ''' + str(resp.prep + resp.cook) + ''' min</li>
             </ul>
             <h2>Ingredients</h2>
             <ul>
@@ -84,7 +84,7 @@ class RecDisp(Page):
     def page_links(self,li):
         update = li
         for item in update:
-            self.body += '<a href="?name=' + item[0] + '"><div class="links"><h3>' + item[0] + "</h3><p>" + item[1] + "</p></div></a><br/>"
+            self.body += '<a href="?name=' + item[0] + '"><div class="links"><h3>' + item[0] + "</h3><p>" + item[1] + "</p></div></a><hr><br/>"
 
     #this is compiling the page elements and sending them to main.py
     def print_page(self):

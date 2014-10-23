@@ -56,7 +56,7 @@ class Bigos(object):
                 <li>Bake in the preheated oven for 2 1/2 to 3 hours, until meat is very tender."</li>
         '''
         self.prep = 30
-        self.cook = 90
+        self.cook = 180
         self.img = 'img/bigos.jpg'
         self.rec_array = [self.rec_name, self.rec_desc, self.rec_ingr, self.directions, self.prep, self.cook]
 
@@ -79,8 +79,8 @@ class PotatoCakes(object):
                 <li>Heat oil in large frying pan until almost smoking. Carefully put a large spoonful of the potato mixture into the pan and flatten with a fork.  Repeat until you have 3-4 pancakes in the pan. Fry each pancake until it is golden brown on both sides.  Remove with spatula and drain on a paper towel.</li>
                 <li>Serve potato pancakes warm with topping of choice.</li>
         '''
-        self.prep = 30
-        self.cook = 90
+        self.prep = 20
+        self.cook = 20
         self.img = 'img/pancakes.jpg'
         self.rec_array = [self.rec_name, self.rec_desc, self.rec_ingr, self.directions, self.prep, self.cook]
 
@@ -102,8 +102,8 @@ class Zrazy(object):
                 <li>Heat oil in a deep frying pan and fry the beef roulades until brown on each side. Add 1/2 cup of beef stock. Simmer for 1 hour or until cooked, adding more stock when necessary. Season to taste.</li>
                 <li>Serve with mashed beetroot.</li>
         '''
-        self.prep = 30
-        self.cook = 90
+        self.prep = 25
+        self.cook = 30
         self.img = 'img/Zrazy.jpg'
         self.rec_array = [self.rec_name, self.rec_desc, self.rec_ingr, self.directions, self.prep, self.cook]
 
@@ -125,8 +125,8 @@ class Nalesniki(object):
                 <li>Using a 2-ounce ladle, portion out batter into a nonstick crepe pan or small skillet that has been lightly coated with butter. Rotate pan and swirl batter until it covers the entire bottom of pan. Cook until lightly brown or spotted brown on the underside. Turn and cook second side until light brown.</li>
                 <li>Remove to waxed paper or parchment paper and repeat with remaining batter and butter. Serve immediately or wrap and freeze up to 1 month.</li>
         '''
-        self.prep = 30
-        self.cook = 90
+        self.prep = 35
+        self.cook = 15
         self.img = 'img/Nalesniki.jpg'
         self.rec_array = [self.rec_name, self.rec_desc, self.rec_ingr, self.directions, self.prep, self.cook]
 
@@ -145,6 +145,6 @@ class Golumpki(object):
                 <li>Mix together the rice, salt/pepper, and raw ground beef. Boil the head of cabbage after coring it, just to loosen the leaves for about 3 to 5 minutes. Take 1 leaf out at a time and fill it with approximately 2 tablespoonfuls of rice-meat mixture. Fold it over horizontally and then bring in the sides of leaf to make a pocket. Arrange in a covered casserole dish or roasting pan and bake at 350 degrees for 1 hour.</li>
         '''
         self.prep = 30
-        self.cook = 90
+        self.cook = 60
         self.img = 'img/Golumpki.jpg'
         self.rec_array = [self.rec_name, self.rec_desc, self.rec_ingr, self.directions, self.prep, self.cook]
