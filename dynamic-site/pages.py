@@ -1,3 +1,6 @@
+'''
+This class is acting as the template for RecDisp the information is static and is only changed via RecDisp.
+'''
 class Page(object):
     def __init__(self):
         self.page_head = '''
@@ -37,7 +40,7 @@ class Page(object):
     </body>
 </html>
         '''
-
+    #this is the default display function. 
     def print_page(self):
         all = self.page_head + self.body + self.end_left + self.stuff + self.close
         all = all.format(**locals())
