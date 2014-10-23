@@ -59,7 +59,11 @@ class RecDisp(Page):
             <h2>Ingredients</h2>
             <ul>
                 ''' + resp.rec_ingr + '''
-            <ul>
+            </ul>
+            <h2>Directions</h2>
+            <ol>
+                ''' + resp.directions + '''
+            </ol>
         </div>
         '''
 
