@@ -57,10 +57,8 @@ class RecDisp(Page):
             <p>''' + resp.rec_desc + '''</p>
             <img src="''' + resp.img + '''" alt="Small Town in Poland">
             <h2>Ingredients</h2>
-            <ul>'''
-        self.stuff_ingr = '''
-        '''
-        self.stuff_close = '''
+            <ul>
+                ''' + resp.rec_ingr + '''
             <ul>
         </div>
         '''
