@@ -40,20 +40,22 @@ class Page(object):
     </body>
 </html>
         '''
-    #this is the default display function. 
+    #this is the default display function.
     def print_page(self):
         all = self.page_head + self.body + self.end_left + self.stuff + self.close
         all = all.format(**locals())
         return all
 
-
+'''
+RecDisp is using Page as a template. The dynamic links and displays all work via this class
+'''
 class RecDisp(Page):
     def __init__(self):
-        Page.__init__(self)
+        Page.__init__(self)#this is enabling the Page object in this class
 
-
+    #this function will display the recipes. The information in resp is coming from the loop in main.
     def page_items(self,resp):
-
+        #this is changing the empty string stuff in the Page class
         self.stuff = '''
         <div class="right">
             <h1>''' + resp.rec_name + '''</h1>
@@ -76,13 +78,13 @@ class RecDisp(Page):
         '''
 
 
-
+    #this is creating the link that you can see on the website. The info in li is coming from the loop in main the finds the name and description. The recipes name is used for both the displayed name and the href name
     def page_links(self,li):
         update = li
         for item in update:
             self.body += '<a href="?name=' + item[0] + '"><div class="links"><h3>' + item[0] + "</h3><p>" + item[1] + "</p></div></a><br/>"
-            #cont">Home</a>"
 
+    #this is compiling the page elements and sending them to main.py
     def print_page(self):
         all = self.page_head + self.body + self.end_left + self.stuff + self.close
         all = all.format(**locals())
