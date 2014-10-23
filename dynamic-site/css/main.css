@@ -3,6 +3,11 @@ body{
 	margin: 0px;
 	padding: 0px;
 	font-family: Helvetica;
+	color: #262F40;
+}
+
+a{
+	text-decoration: none;
 }
 
 .nav{
@@ -11,8 +16,11 @@ body{
 }
 
 .nav a{
-	text-decoration: none;
 	color: #D9D9D9;
+}
+
+.nav a:hover{
+	color: #F7F7F7;
 }
 
 .nav ul{
@@ -29,6 +37,7 @@ body{
 .about{
 	width: 55%;
 	margin-left: 500px;
+	padding-bottom: 20px;
 }
 
 .about img{
@@ -40,23 +49,44 @@ body{
 	margin-left: 90px;
 	padding: 0px 10px;
 	width: 300px;
+	height: 646px;
+	overflow: scroll;
 	background-color: #BFB7B0;
 }
 
 .left a{
-	color: black;
+	color: #262F40;
+}
+
+.left a:hover{
+	color: #475370;
 }
 
 .right{
 	width: 55%;
 	margin-left: 500px;
+	padding-bottom: 20px;
 }
 
 .right img{
 	width: 100%;
 }
 
+.times{
+	width: 95%;
+	background-color: #262F40;
+}
 
+.times ul{
+	list-style-type: none;
+}
+
+.times li{
+	display: inline-block;
+	padding: 10px 0px;
+	margin: 0px 5px 0px 95px;
+	color: #D9D9D9;
+}
 
 
 

@@ -1,6 +1,13 @@
+'''
+RecData is holding all the information from the data objects in an array
+'''
 class RecData(object):
     def __init__(self):
         self.rec_arr = [[],[],[],[],[]]
+
+'''
+Bellow you will find all of my data object. They are each holding 7 vars that hold all of the information needed to display the information. The information mostly consists of string, but they do have two ints for prep and cook time.
+'''
 
 class Bigos(object):
     def __init__(self):
