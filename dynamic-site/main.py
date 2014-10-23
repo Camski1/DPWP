@@ -38,8 +38,11 @@ class MainHandler(webapp2.RequestHandler):
                 rdp.page_items(nal)
                 print "YES"
                 self.response.write(rdp.print_page())
-            else:
+            elif name == "Golumpki":
                 rdp.page_items(gol)
+                print "YES"
+                self.response.write(rdp.print_page())
+            else:
                 print "YES"
                 self.response.write(rdp.print_page())
         else:

@@ -109,7 +109,6 @@ class Nalesniki(object):
         <li>In a blender or food processor, combine all ingredients until smooth. Transfer to a pitcher, cover with plastic wrap and let rest for 30 minutes so the liquid can be absorbed by the flour.</li>
         <li>Using a 2-ounce ladle, portion out batter into a nonstick crepe pan or small skillet that has been lightly coated with butter. Rotate pan and swirl batter until it covers the entire bottom of pan. Cook until lightly brown or spotted brown on the underside. Turn and cook second side until light brown.</li>
         <li>Remove to waxed paper or parchment paper and repeat with remaining batter and butter. Serve immediately or wrap and freeze up to 1 month.</li>
-        <li></li>
         '''
         self.prep = 30
         self.cook = 90
