@@ -19,13 +19,13 @@ class MainHandler(webapp2.RequestHandler):
         gol = Golumpki()
         rdp = RecDisp()
         #the 5 transfers bellow are moving information into the RecData array
-        rd.rec_arr[0] = bigos.rec_array
-        rd.rec_arr[1] = pc.rec_array
-        rd.rec_arr[2] = zr.rec_array
-        rd.rec_arr[3] = nal.rec_array
-        rd.rec_arr[4] = gol.rec_array
+        rd._rec_arr[0] = bigos.rec_array
+        rd._rec_arr[1] = pc.rec_array
+        rd._rec_arr[2] = zr.rec_array
+        rd._rec_arr[3] = nal.rec_array
+        rd._rec_arr[4] = gol.rec_array
         #this loop is sending the name and description of each item in RecData pages.py to make the links
-        for item in rd.rec_arr:
+        for item in rd._rec_arr:
             rdp.page_links([[item[0], item[1]]])
         #The ifs are finding if the user has clicked on a link. If not it will show the home page, if so it will recognize the name and move data as needed
         if self.request.GET:
