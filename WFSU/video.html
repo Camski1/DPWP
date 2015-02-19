@@ -1,0 +1,123 @@
+<!DOCTYPE><html>
+	<head>
+		<title>WFSU Video</title>
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
+
+	</head>
+	<body>
+		<div id="wrapper">
+
+			<div id="header">
+				<a href="video.html#/TabOne"><img src="img/Ar.png" alt="left click" class="left"></a>
+				<ul>
+					<a href="video.html#/TabOne"><li><h1>Video</h1></li></a>
+					<a href="index.html"><li><img src="img/logo.svg" alt="Logo" class="logo"></li></a>
+					<a href="audio.html"><li><h1>Audio<h1></li></a>
+				</ul>
+				<a href="audio.html"><img src="img/rAr.png" alt="right click" class="right"></a>
+			</div>
+
+			<div id="imp">
+			<script type="text/x-handlebars">
+				<div id="vid_left">
+					<img src="img/vid_logo.svg">
+					{{#link-to 'TabOne'}}<img src="img/wk3.png">{{/link-to}}
+					{{#link-to 'TabTwo'}}<img src="img/map.png">{{/link-to}}
+					{{#link-to 'TabThree'}}<img src="img/svg_mov.png">{{/link-to}}
+				</div>
+
+				<div id="v_right">
+					{{outlet}}
+				</div>
+
+				<div id="vfooter">
+				<ul>
+					<a href="index.html"><li>Home</li></a>
+					<a href="video.html#/TabOne"><li>Video</li></a>
+					<a href="audio.html"><li>Audio</li></a>
+				</ul>
+				<ul>
+					<a href="https://www.facebook.com"><li>Facebook</li></a>
+					<a href="https://twitter.com"><li>Twiter</li></a>
+				</ul>
+
+			</div>
+			</script>
+			</div>
+
+			<script type="text/x-handlebars" id="TabOne">
+    			<div class="cont">
+	      			<video width="800px" height="auto" preload="auto" controls poster="img/wk3.png">
+	        			<source src="vids/Sequence-01.mp4" type="video/mp4">
+	        			<source src="vids/Sequence-01.ogv" type="video/ogv">
+	        			<source src="vids/Sequence-01.webm" type="video/webm">
+	        			<object data="vids/Sequence-01.fv4" type="application/x-shockwave-flash">
+	        				<param value="Sequence-01.fv4" name="Sequence-01" />
+	        			</object>
+	        			Your browser does not support the video tag.
+	      			</video>
+	      			<h3>NYC</h3>
+	      			<p>
+	      				"This is a simple video I made in my Rich Media Optimization class RMO). The video is a commercial for New York City. It was made with Adobe Premiere. This was my first time using AP and it really shows. The music in the background is Animal by Miike Snow. The basic idea I was going for in this video is that NYC moves fast but that you can keep up." Length: 49sec | Author : Cameron Kozinski</p>
+	      			<p>Download:</p>
+	      				<a href="vids/Sequence-01.mp4" download="Sequence-01.mp4"><div class="btn">MP4</div></a>
+	      				<a href="vids/Sequence-01.ogv" download="Sequence-01.mp4"><div class="btn">Ogv</div></a>
+	      				<a href="vids/Sequence-01.webm" download="Sequence-01.webm"><div class="btn">WebM</div></a>
+    			</div>
+  			</script>
+
+  			<script type="text/x-handlebars" id="TabTwo">
+    			<div class="cont">
+	      			<video width="800px" height="auto" preload="auto" controls poster="img/map.png">
+	        			<source src="vids/map-tut.mp4" type="video/mp4">
+	        			<source src="vids/map-tut.ogv" type="video/ogv">
+	        			<source src="vids/map-tut.webm" type="video/webm">
+	        			<object data="vids/map-tut.fv4" type="application/x-shockwave-flash">
+	        				<param value="map-tut.fv4" name="map-tut" />
+	        			</object>
+	        			Your browser does not support the video tag.
+	      			</video>
+	      			<h3>jVectormap </h3>
+	      			<p>"This is a simple video I made to explain how to use the jVectormap plugin. This map is vector based so it is really great for scalable design. The video is in a slide show and end with an example. I go into the code some but the coding is very simple." Length: 8.25 | Author : Cameron Kozinski</p>
+	      			<p>Download:</p>
+	      				<a href="vids/map-tut.mp4" download="map-tut.mp4"><div class="btn">MP4</div></a>
+	      				<a href="vids/map-tut.ogv" download="map-tut.mp4"><div class="btn">Ogv</div></a>
+	      				<a href="vids/map-tut.webm" download="map-tut.webm"><div class="btn">WebM</div></a>
+    			</div>
+  			</script>
+
+
+			<script type="text/x-handlebars" id="TabThree">
+    			<div class="cont">
+	      			<video width="800px" height="auto" preload="auto" controls poster="img/svg_mov.png">
+	        			<source src="vids/svg.mp4" type="video/mp4">
+	        			<source src="vids/svg.ogv" type="video/ogv">
+	        			<source src="vids/svg.webm" type="video/webm">
+	        			<object data="vids/svg.fv4" type="application/x-shockwave-flash">
+	        				<param value="svg.fv4" name="svg" />
+	        			</object>
+	        			Your browser does not support the video tag.
+	      			</video>
+	      			<h3>SVG</h3>
+	      			<p>"This is a simple video I made to explain the basics of scalable vector graphics (SVG).  SVG is an image format for vector graphics. It literally means Scalable Vector Graphics. Basically, what you work with in Adobe Illustrator. You can use SVG on the web pretty easily, but there is plenty you should know. So why use SVG? Small file sizes that compress well, Scales to any size without losing clarity (except very tiny), Looks great on retina displays and, Design control like interactivity and filters." Length: 2.51 | Author : Cameron Kozinski</p>
+
+	      				<p>Download:</p>
+	      				<a href="vids/svg.mp4" download="svg.mp4"><div class="btn">MP4</div></a>
+	      				<a href="vids/svg.ogv" download="svg.mp4"><div class="btn">Ogv</div></a>
+	      				<a href="vids/svg.webm" download="svg.webm"><div class="btn">WebM</div></a>
+
+    			</div>
+  			</script>
+			
+		
+		
+		
+		</div>
+		<script src="js/libs/jquery-1.10.2.js"></script>
+  <script src="js/libs/handlebars-1.1.2.js"></script>
+  <script src="js/libs/ember-1.6.1.js"></script>
+  <script src="js/app.js"></script>
+  <!-- to activate the test runner, add the "?test" query string parameter -->
+  <script src="tests/runner.js"></script>
+	</body>
+</html>
